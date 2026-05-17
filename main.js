@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Welcome to Tolani"s API!');
+  res.json({ message: 'Welcome to Tolani"s API!' });
 });
 
 app.listen(port, () => {
